@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 0 0 90 100" version="1.1" viewBox="0 0 90 100" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+	.Graphic_x0020_Style_x0020_2{fill:url(#d);}
+	.st0{fill:#5BC8F3;}
+	.st1{fill:url(#c);}
+	.st2{fill:url(#b);}
+	.st3{fill:url(#a);}
+</style>
+<linearGradient id="d" x1="-5" x2="-5.7071" y2=".7071" gradientUnits="userSpaceOnUse">
+	<stop stop-color="#EE4447" offset="0"/>
+	<stop stop-color="#C5166C" offset="1"/>
+</linearGradient>
+	<path class="st0" d="M1.9,1.5C0.8,2.7,0.1,4.6,0.1,7v86c0,2.4,0.7,4.3,1.8,5.5l0.3,0.3l48.2-48.2V50v-0.6L2.2,1.3L1.9,1.5z"/>
+	<linearGradient id="c" x1="82.279" x2="-11.796" y1="50.001" y2="50.001" gradientUnits="userSpaceOnUse">
+		<stop stop-color="#FFDF00" offset="0"/>
+		<stop stop-color="#FBBC0E" offset=".4087"/>
+		<stop stop-color="#F9A418" offset=".7754"/>
+		<stop stop-color="#F89B1C" offset="1"/>
+	</linearGradient>
+	<path class="st1" d="m66.4 66.6-16-16v-1.2l16.1-16.1 0.4 0.2 19 10.8c5.4 3.1 5.4 8.1 0 11.2l-19 10.8-0.5 0.3z"/>
+	<linearGradient id="b" x1="57.866" x2="-30.616" y1="58.923" y2="147.4" gradientUnits="userSpaceOnUse">
+		<stop stop-color="#EE4447" offset="0"/>
+		<stop stop-color="#C5166C" offset="1"/>
+	</linearGradient>
+	<path class="st2" d="M66.8,66.4L50.4,50L1.9,98.5c1.8,1.9,4.7,2.1,8.1,0.2L66.8,66.4"/>
+	<linearGradient id="a" x1="-31.01" x2="41.232" y1="-47.799" y2="24.444" gradientUnits="userSpaceOnUse">
+		<stop stop-color="#269E6F" offset="0"/>
+		<stop stop-color="#2BA06F" offset=".05089"/>
+		<stop stop-color="#53B26B" offset=".4663"/>
+		<stop stop-color="#6BBD69" offset=".7971"/>
+		<stop stop-color="#74C168" offset="1"/>
+	</linearGradient>
+	<path class="st3" d="M66.8,33.6L10,1.3C6.7-0.6,3.7-0.4,1.9,1.5L50.4,50L66.8,33.6z"/>
+</svg>
