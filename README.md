@@ -1,4 +1,4 @@
-# Fearless — The Wallet for the Decentralized Future
-Fearless is a mobile wallet designed for the Kusama network, with support on iOS and Android platforms. The best user experience, fast performance, and secure storage for your accounts. Coming soon.
+# Fearless Wallet — The DeFi Wallet for the Future
+Fearless Wallet is a mobile wallet designed for the decentralized future on the Kusama and Polkadot networks, with support on iOS and Android platforms. The best UX, fast performance, and secure accounts storage.
 
 ![Sample](fearless-share-image.jpg)
