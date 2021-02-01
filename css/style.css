@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import 'framework.min.css';
 
+body {background-color:#000;}
+
 .show-mobile{display:none;}
 
 .navigation_mobile.opened {
