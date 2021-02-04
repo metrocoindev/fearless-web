@@ -351,19 +351,27 @@ function SF_scripts(){
 				.done(function(data){
 					if(data=="ok"){
 						$(".alert-form-success").fadeIn(200).delay(5000).fadeOut(200);
+						var form = document.getElementById("formHandler");
+						formHandler.reset();
 					}else{
 						$(".alert-form-error .message").html(data);
 						$(".alert-form-error").fadeIn(200).delay(10000).fadeOut(200);
+						var form = document.getElementById("formHandler");
+						formHandler.reset();
 					}
 					hidegRecaptchaPopup();
 				})
 				.fail(function(){
 					$(".alert-form-error").fadeIn(200).delay(10000).fadeOut(200);
 					hidegRecaptchaPopup();
+					var form = document.getElementById("formHandler");
+					formHandler.reset();
 				});
 			}else{
 				$(".alert-form-check-fields").fadeIn(200).delay(5000).fadeOut(200);
 				hidegRecaptchaPopup();
+				var form = document.getElementById("formHandler");
+				formHandler.reset();
 			}
 		}
 	});
