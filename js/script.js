@@ -120,7 +120,7 @@ function SF_scripts(){
 			 popup: {background: '#000000', text: '#fff', link: '#ff009a'},
 			 button: {background: '#fff', border: '##fff', text: '#000'},
 			 highlight: {background: '#ff009a', border: '#ff009a', text: '#fff'},
-		}
+		},
 		revokable: false,
 		onStatusChange: function(status) {
 			console.log(this.hasConsented() ?
