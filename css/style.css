@@ -3,6 +3,33 @@
 
 body {background-color:#000;}
 
+.cc-window {
+	position: fixed;
+    bottom: 0;
+    z-index: 10 !important;
+    background-color: #000;
+    opacity: .9;
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+	color: #fff;
+}
+.cc-link {
+	color: #ff009a;
+}
+.cc-btn {
+	padding: 8px 20px;
+    margin-top: 10px;
+    background-color: #fff;
+    display: inline-block;
+    clip-path: polygon( 0% 10px, 10px 0%, 0% 0%,100% 0%, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0% 100%, 0% 0% );
+}
+.cc-btn:hover {
+	text-decoration: none!important;
+	background-color: #ff009a!important;
+	color: #fff!important;
+}
+
 .show-mobile{display:none;}
 
 .navigation_mobile.opened {
