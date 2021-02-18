@@ -116,6 +116,18 @@ function SF_scripts(){
 	
 	window.cookieconsent.initialise({
 		container: document.getElementById("cookieconsent"),
+		content: {
+			header: 'Cookies used on the website',
+			message: 'We use cookies to provide the best site experience.',
+			dismiss: 'Accept and don\'t show again',
+			allow: 'Allow cookies',
+			deny: 'Decline',
+			link: 'Learn more',
+			href: '/privacy',
+			close: '&#x274c;',
+			policy: 'Privacy Policy',
+			target: '_blank',
+		},
 		palette: {
 			 popup: {background: '#000000', text: '#fff', link: '#ff009a'},
 			 button: {background: '#fff', border: '##fff', text: '#000'},
@@ -127,7 +139,7 @@ function SF_scripts(){
 			'enable cookies' : 'disable cookies');
 		},
 		"theme": "edgeless",
-		"position": "bottom-left",
+		"position": "bottom",
 	});
 	
 	$('.rotate').rotaterator({
