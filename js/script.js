@@ -115,17 +115,19 @@ $(document).ready(function() {
 function SF_scripts(){
 	
 	window.cookieconsent.initialise({
-	  container: document.getElementById("cookieconsent"),
-	  palette:{
-		popup: { background: "#1aa3ff" },
-		button: { background: "#e0e0e0" },
-	  },
-	  revokable: true,
-	  onStatusChange: function(status) {
-		console.log(this.hasConsented() ?
-		'enable cookies' : 'disable cookies');
-	  },
-	  "theme": "edgeless"
+		container: document.getElementById("cookieconsent"),
+		palette: {
+			 popup: {background: '#000000', text: '#fff', link: '#ff009a'},
+			 button: {background: '#fff', border: '##fff', text: '#000'},
+			 highlight: {background: '#ff009a', border: '#ff009a', text: '#fff'},
+		}
+		revokable: false,
+		position: "bottom-left",
+		onStatusChange: function(status) {
+			console.log(this.hasConsented() ?
+			'enable cookies' : 'disable cookies');
+		},
+		"theme": "edgeless"
 	});
 	
 	$('.rotate').rotaterator({
