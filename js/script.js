@@ -122,12 +122,12 @@ function SF_scripts(){
 			 highlight: {background: '#ff009a', border: '#ff009a', text: '#fff'},
 		}
 		revokable: false,
-		position: "bottom-left",
 		onStatusChange: function(status) {
 			console.log(this.hasConsented() ?
 			'enable cookies' : 'disable cookies');
 		},
-		"theme": "edgeless"
+		"theme": "edgeless",
+		"position": "bottom-left",
 	});
 	
 	$('.rotate').rotaterator({
